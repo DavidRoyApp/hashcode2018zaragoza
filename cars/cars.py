@@ -33,10 +33,6 @@ def readInput(filename):
     rides = rides[1:len(lines)]
     print(rides)
 
-    #rides que no tengan coche asignado y cumplan el requisito de que la diferencia entre origen y posicion del coche (d)
-    #+ t_actual este entre tmin y tmax
-    #ordenar por distancia desc y primero -> coche 1
-    #actualizar variables: posicion del coche = destino + distancia, tactual +=  d + distancia
     #iterar hasta T pasos   
 
 def writeOutput(filename):
@@ -44,6 +40,35 @@ def writeOutput(filename):
         for col in range(0, C):
             print pizza[row][col],
         print
+
+def algoritmoPrincipal():
+    global t
+
+    for car in range(0,F): #para cada coche
+        while t <= T: #mientras haya tiempo
+            filtrados= filtrarRides()
+            ordenados= ordenarRides(filtrados)
+            #coger el 1º del array ordenados
+            c= ordenados[0]
+            #actualizar variables
+            pos=c.destino
+            t= t+ (diferencia entre c.origen y t) + c.distancia
+
+def filtrarRides():
+    #variables
+    # d= diferencia entre origen del ride y pos (la posición del coche)
+
+    #filtrar
+    # que no tengan coche asignado
+    # que t_min <= d + t && d+t <= t_max
+
+    #devolver array
+
+
+def ordenarRides(rides):
+    #ordenar por distancia desc
+
+    #devolver array
 
 
 # def doSlices():
