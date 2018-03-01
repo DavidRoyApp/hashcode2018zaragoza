@@ -48,6 +48,13 @@ class Slice:
     rowFin = 0
     colFin= 0
 
+class Ride:
+    distance = 0
+    t_min = 0 # cuando es lo más pronto que puede empezar
+    t_max = 0 # cuando es lo más tarde que puede empezar
+    origen = {}
+    destino = {}
+    coche = 0 # coche que tiene asignado. 0 si no lo tiene asignado
 
 
 
