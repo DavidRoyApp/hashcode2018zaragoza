@@ -3,6 +3,9 @@
 
 inFilename = "./a_example.in"
 outFilename = "./output.txt"
+#ncar = 0
+#t=0
+#pos=(1,2)
 rides = []
 
 def main():
@@ -13,7 +16,7 @@ def main():
 def readInput(filename):
     # leer fichero de entrada
 
-    global R, C, L, H, pizza
+    global R, C, F, N, B, T
 
     with open(filename) as f:
         lines = f.readlines()
@@ -25,6 +28,11 @@ def readInput(filename):
     rides = rides[1:len(lines)]
     print(rides)
 
+    #rides que no tengan coche asignado y cumplan el requisito de que la diferencia entre origen y posicion del coche (d)
+    #+ t_actual este entre tmin y tmax
+    #ordenar por distancia desc y primero -> coche 1
+    #actualizar variables: posicion del coche = destino + distancia, tactual +=  d + distancia
+    #iterar hasta T pasos   
 
 def writeOutput(filename):
     for row in range(0, R):
@@ -38,11 +46,13 @@ def writeOutput(filename):
 
 
 ################################################################################
-class Slice:
-    rowIni = 0
-    colIni= 0
-    rowFin = 0
-    colFin= 0
+class Ride:
+    distance = 0
+    t_min = 0 # cuando es lo más pronto que puede empezar
+    t_max = 0 # cuando es lo más tarde que puede empezar
+    origen = {}
+    destino = {}
+    coche = 0 # coche que tiene asignado. 0 si no lo tiene asignado
 
 
 
