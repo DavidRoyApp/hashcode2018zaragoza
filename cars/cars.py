@@ -17,7 +17,12 @@ def main():
 def readInput(filename):
     # leer fichero de entrada
 
-    global R, C, F, N, B, T
+    global R #nº de filas
+    global C #nº de columnas
+    global F #nº de coches
+    global N #nº de riders
+    global B #bonus por empezaren t_min
+    global T #nº de pasos
 
     with open(filename) as f:
         lines = f.readlines()
@@ -49,12 +54,42 @@ def readInput(filename):
 
 def distance(tuple1, tuple2):
     return abs(tuple1[0] - tuple2[0]) + abs(tuple1[1] - tuple2[1])
+    #iterar hasta T pasos   
 
 def writeOutput(filename):
     for row in range(0, R):
         for col in range(0, C):
             print pizza[row][col],
         print
+
+def algoritmoPrincipal():
+    global t
+
+    for car in range(0,F): #para cada coche
+        while t <= T: #mientras haya tiempo
+            filtrados= filtrarRides()
+            ordenados= ordenarRides(filtrados)
+            #coger el 1º del array ordenados
+            c= ordenados[0]
+            #actualizar variables
+            pos=c.destino
+            t= t+ (diferencia entre c.origen y t) + c.distancia
+
+def filtrarRides():
+    #variables
+    # d= diferencia entre origen del ride y pos (la posición del coche)
+
+    #filtrar
+    # que no tengan coche asignado
+    # que t_min <= d + t && d+t <= t_max
+
+    #devolver array
+
+
+def ordenarRides(rides):
+    #ordenar por distancia desc
+
+    #devolver array
 
 
 # def doSlices():
