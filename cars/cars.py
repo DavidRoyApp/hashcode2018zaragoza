@@ -1,8 +1,21 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-inFilename = "./a_example.in"
-outFilename = "./output.txt"
+#inFilename = "./a_example.in"
+#outFilename = "./output1.txt"
+
+#inFilename = "./b_should_be_easy.in"
+#outFilename = "./output2.txt"
+
+#inFilename = "./c_no_hurry.in"
+#outFilename = "./output3.txt"
+
+#inFilename = "./d_metropolis.in"
+#outFilename = "./output4.txt"
+
+inFilename = "./e_high_bonus.in"
+outFilename = "./output5.txt"
+
 ncar = 0
 tActual = 0
 posCar = (0, 0)
@@ -37,8 +50,8 @@ def readInput(filename):
     for field in ridesInput:
         newRide = Ride()
         newRide.id = key
-        newRide.source = (field[0], field[2])
-        newRide.target = (field[1], field[3])
+        newRide.source = (field[0], field[1])
+        newRide.target = (field[2], field[3])
         newRide.distance = distance(newRide.source, newRide.target)
         newRide.tstart_max = field[5] - newRide.distance
         newRide.t_min = field[4]
@@ -73,19 +86,26 @@ def writeOutput(filename):
 
 
 def algoritmoPrincipal():
-    # filtrados = rides
+    global tActual, posCar
+
     for car in range(0, F):  # para cada coche
+        print("coche nº: "+ str(car))
+        
+        ordenados = rides
         tActual = 0  # cada coche empieza con tiempo 0
         posCar = (0, 0) #resetear posicion del coche
         while tActual < T:  # mientras haya tiempo
-            # filtrados = filtrarRides(filtrados)
-            filtrados = filtrarRidesMalo()  # filtrar a partir del total de rides
-            ordenados = ordenarRides(filtrados)  # de los filtrados, los ordenamos
+            filtrados = filtrarRides(ordenados)
+            print("len filtrados: "+ str(len(filtrados)))
+            #filtrados = filtrarRidesMalo()  # filtrar a partir del total de rides
+            ordenados = ordenarRidesBonus(filtrados)  # de los filtrados, los ordenamos
+            print("len ordenados: "+ str(len(ordenados)))
             # coger el 1º del array ordenados
             if(len(ordenados) > 0):
                 selectedRide = ordenados[0]
                 # actualizar variables
                 rides[selectedRide.id].car = car
+                ordenados = ordenados[1:len(ordenados)]
                 posCar = selectedRide.target
                 timeToSource = distance(selectedRide.source, posCar) + tActual
                 tActual = selectedRide.distance + timeToSource
@@ -97,6 +117,11 @@ def filtrarRidesMalo():
     ret = []
     for r in rides:
         timeToSource = distance(r.source, posCar) + tActual
+        #print(timeToSource)
+        #print(r.t_min)
+        #print(r.tstart_max)
+        #print(tActual)
+        #print("\n")
         # TODO: Primer filtro puede dar problemas, no pasa nada por esperar
         if (r.car < 0 and r.t_min <= timeToSource and timeToSource <= r.tstart_max):
             ret.append(r)
@@ -107,15 +132,32 @@ def filtrarRides(ridesList):
     ret = []
     for r in ridesList:
         timeToSource = distance(r.source, posCar) + tActual
+        #print(r.car)
+        #print(timeToSource)
+        #print(r.t_min)
+        #print(r.tstart_max)
+        #print(tActual)
+        #print("\n")
         # TODO: Primer filtro puede dar problemas, no pasa nada por esperar
-        if (r.car < 0 and r.t_min <= timeToSource and timeToSource <= r.tstart_max):
+        if (r.t_min >= timeToSource):
+            r.extra = B
+        else:
+            r.extra = 0
+        if (r.car < 0
+            #and r.t_min >= timeToSource
+             and timeToSource <= r.tstart_max):
             ret.append(r)
     return ret
 
 
 def ordenarRides(ridesList):
     # ordenar por distancia desc
-    return sorted(ridesList, key=lambda x: x.distance, reverse=True)
+    return sorted(ridesList, key=lambda x: x.distance - distance(x.source, posCar), reverse=True)
+
+
+def ordenarRidesBonus(ridesList):
+    # ordenar por distancia desc
+    return sorted(ridesList, key=lambda x: x.extra + x.distance - distance(x.source, posCar), reverse=True)
 
 
 # def doSlices():
@@ -131,6 +173,8 @@ class Ride:
     source = ()
     target = ()
     car = 0  # coche que tiene asignado. 0 si no lo tiene asignado
+    bonus = 0 # bonus de puntualidad
+    extra = 0
 
 
 # esto siempre al final
