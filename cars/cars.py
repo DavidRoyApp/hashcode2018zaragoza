@@ -16,7 +16,12 @@ def main():
 def readInput(filename):
     # leer fichero de entrada
 
-    global R, C, F, N, B, T
+    global R #nº de filas
+    global C #nº de columnas
+    global F #nº de coches
+    global N #nº de riders
+    global B #bonus por empezaren t_min
+    global T #nº de pasos
 
     with open(filename) as f:
         lines = f.readlines()
