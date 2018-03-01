@@ -3,11 +3,17 @@
 
 inFilename = "./a_example.in"
 outFilename = "./output.txt"
-#ncar = 0
-#t=0
-#pos=(1,2)
+ncar = 0
+t=0
+pos=(1,2)
+R = 0 #nº de filas
+C = #nº de columnas
+F = #nº de coches
+N = #nº de riders
+B = #bonus por empezaren t_min
+T = #nº de pasos
+ridesInput = []
 rides = []
-ridesInfo = []
 
 def main():
     readInput(inFilename)
@@ -17,39 +23,25 @@ def main():
 def readInput(filename):
     # leer fichero de entrada
 
-    global R #nº de filas
-    global C #nº de columnas
-    global F #nº de coches
-    global N #nº de riders
-    global B #bonus por empezaren t_min
-    global T #nº de pasos
-
     with open(filename) as f:
         lines = f.readlines()
     lines = [x.strip() for x in lines]
 
     # línea 1
     R, C, F, N, B, T = map(int, lines[0].split())
-    rides = [list(map(int, line.split(' '))) for line in lines]
-    rides = rides[1:len(lines)]
-    for(ride in rides):
+    ridesInput = [list(map(int, line.split(' '))) for line in lines]
+    ridesInput = ridesInput[1:len(lines)]
+    for(ride in ridesInput):
         newRide = Ride()
-        newRide.origen = (ride[0], ride[2])
-        newRide.destino = (ride[1], ride[3])
+        newRide.source = (ride[0], ride[2])
+        newRide.target = (ride[1], ride[3])
         newRide.distance = distance(newRide.origen, newRide.destino)
-        newRide.t_max = 
-        newRide.t_min = 
-        newRide.origen = 
-        newRide.coche = 
-        ridesInfo.append(newRide)
+        newRide.tstart_max = ride[5] - newRide.distance
+        newRide.t_min = ride[4]
+        newRide.car = -1
+        rides.append(newRide)
     
     print(rides)
-
-    #rides que no tengan coche asignado y cumplan el requisito de que la diferencia entre origen y posicion del coche (d)
-    #+ t_actual este entre tmin y tmax
-    #ordenar por distancia desc y primero -> coche 1
-    #actualizar variables: posicion del coche = destino + distancia, tactual +=  d + distancia
-    #iterar hasta T pasos  
 
 
 def distance(tuple1, tuple2):
@@ -98,12 +90,13 @@ def ordenarRides(rides):
 
 ################################################################################
 class Ride:
-    distance = 0
+    id = 0 # id del ride
+    distance = 0 # 
     t_min = 0 # cuando es lo más pronto que puede empezar
-    t_max = 0 # cuando es lo más tarde que puede empezar
-    origen = ()
-    destino = ()
-    coche = 0 # coche que tiene asignado. 0 si no lo tiene asignado
+    tstart_max = 0 # cuando es lo más tarde que puede empezar
+    source = ()
+    target = ()
+    car = 0 # coche que tiene asignado. 0 si no lo tiene asignado
 
 
 
