@@ -1,2 +1,3 @@
-# hashcode2018zaragoza
-HashCode 2018 Zaragoza
+# HashCode 2018
+Equipo: While del parawhile
+Zaragoza
