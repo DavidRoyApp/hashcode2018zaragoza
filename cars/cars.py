@@ -16,17 +16,19 @@
 inFilename = "./e_high_bonus.in"
 outFilename = "./output5.txt"
 
-ncar = 0
-tActual = 0
-posCar = (0, 0)
 R = 0  # nº de filas
 C = 0  # nº de columnas
 F = 0  # nº de coches
 N = 0  # nº de riders
 B = 0  # bonus por empezaren t_min
 T = 0  # nº de pasos
+
 ridesInput = []
 rides = []
+
+ncar = 0 # nº de coche actual
+tActual = 0 # el tiempo actual
+posCar = (0, 0) # la posición actual del coche
 
 
 def main():
@@ -62,7 +64,6 @@ def readInput(filename):
 
 def distance(tuple1, tuple2):
     return abs(tuple1[0] - tuple2[0]) + abs(tuple1[1] - tuple2[1])
-    # iterar hasta T pasos
 
 
 def writeOutput(filename):
@@ -132,20 +133,15 @@ def filtrarRides(ridesList):
     ret = []
     for r in ridesList:
         timeToSource = distance(r.source, posCar) + tActual
-        #print(r.car)
-        #print(timeToSource)
-        #print(r.t_min)
-        #print(r.tstart_max)
-        #print(tActual)
-        #print("\n")
-        # TODO: Primer filtro puede dar problemas, no pasa nada por esperar
+
         if (r.t_min >= timeToSource):
-            r.extra = B
+            r.bonus = B
+            r.delay = r.t_min - timeToSource
         else:
-            r.extra = 0
-        if (r.car < 0
-            #and r.t_min >= timeToSource
-             and timeToSource <= r.tstart_max):
+            r.bonus = 0
+            r.delay = 0
+
+        if (r.car < 0 and timeToSource <= r.tstart_max):
             ret.append(r)
     return ret
 
@@ -157,7 +153,7 @@ def ordenarRides(ridesList):
 
 def ordenarRidesBonus(ridesList):
     # ordenar por distancia desc
-    return sorted(ridesList, key=lambda x: x.extra + x.distance - distance(x.source, posCar), reverse=True)
+    return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - distance(x.source, posCar), reverse=True)
 
 
 # def doSlices():
@@ -174,7 +170,7 @@ class Ride:
     target = ()
     car = 0  # coche que tiene asignado. 0 si no lo tiene asignado
     bonus = 0 # bonus de puntualidad
-    extra = 0
+    delay = 0 # tiempo de espera hasta t_min
 
 
 # esto siempre al final
