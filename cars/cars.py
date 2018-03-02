@@ -129,14 +129,11 @@ def filtrarRides(ridesList):
     return ret
 
 
-def ordenarRides(ridesList):
-    # ordenar por distancia desc
-    return sorted(ridesList, key=lambda x: x.distance - distance(x.source, posCar), reverse=True)
-
-
 def ordenarRidesBonus(ridesList):
     # ordenar por distancia desc
-    return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - distance(x.source, posCar), reverse=True)
+    #return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - distance(x.source, posCar), reverse=True)
+    #return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - (0.5* distance(x.source, posCar)), reverse=True)
+    return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - (0.5* distance(x.source, posCar)) - (0.5* distance(x.target, posCar)), reverse=True)
 
 
 # def doSlices():
