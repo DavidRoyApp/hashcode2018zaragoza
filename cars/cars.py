@@ -1,20 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-#inFilename = "./a_example.in"
-#outFilename = "./output1.txt"
-
-#inFilename = "./b_should_be_easy.in"
-#outFilename = "./output2.txt"
-
-#inFilename = "./c_no_hurry.in"
-#outFilename = "./output3.txt"
-
-#inFilename = "./d_metropolis.in"
-#outFilename = "./output4.txt"
-
-inFilename = "./e_high_bonus.in"
-outFilename = "./output5.txt"
+inFilename = ["./a_example.in", "./b_should_be_easy.in", "./c_no_hurry.in", "./d_metropolis.in", "./e_high_bonus.in"]
+outFilename = ["./output1.txt", "./output2.txt", "./output3.txt", "./output4.txt", "./output5.txt"]
 
 R = 0  # nº de filas
 C = 0  # nº de columnas
@@ -32,9 +20,10 @@ posCar = (0, 0) # la posición actual del coche
 
 
 def main():
-    readInput(inFilename)
-    algoritmoPrincipal()
-    writeOutput(outFilename)
+    for i in range(0, 4):
+        readInput(inFilename[i])
+        algoritmoPrincipal()
+        writeOutput(outFilename[i])
 
 
 def readInput(filename):
@@ -48,6 +37,9 @@ def readInput(filename):
     R, C, F, N, B, T = map(int, lines[0].split())
     ridesInput = [list(map(int, line.split(' '))) for line in lines]
     ridesInput = ridesInput[1:len(lines)]
+
+    global rides
+    rides = []
     key = 0
     for field in ridesInput:
         newRide = Ride()
@@ -60,6 +52,12 @@ def readInput(filename):
         newRide.car = -1
         rides.append(newRide)
         key += 1
+
+    # inicializar
+    global ncar, tActual, posCar
+    ncar = 0
+    tActual = 0
+    posCar = (0, 0)
 
 
 def distance(tuple1, tuple2):
@@ -89,44 +87,29 @@ def writeOutput(filename):
 def algoritmoPrincipal():
     global tActual, posCar
 
+    ordenados = rides
     for car in range(0, F):  # para cada coche
         print("coche nº: "+ str(car))
         
-        ordenados = rides
         tActual = 0  # cada coche empieza con tiempo 0
         posCar = (0, 0) #resetear posicion del coche
         while tActual < T:  # mientras haya tiempo
             filtrados = filtrarRides(ordenados)
             print("len filtrados: "+ str(len(filtrados)))
-            #filtrados = filtrarRidesMalo()  # filtrar a partir del total de rides
             ordenados = ordenarRidesBonus(filtrados)  # de los filtrados, los ordenamos
             print("len ordenados: "+ str(len(ordenados)))
             # coger el 1º del array ordenados
             if(len(ordenados) > 0):
                 selectedRide = ordenados[0]
                 # actualizar variables
+                distanceToSource = distance(posCar, selectedRide.source)
+
                 rides[selectedRide.id].car = car
                 ordenados = ordenados[1:len(ordenados)]
                 posCar = selectedRide.target
-                timeToSource = distance(selectedRide.source, posCar) + tActual
-                tActual = selectedRide.distance + timeToSource
+                tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
             else:
                 tActual = T
-
-
-def filtrarRidesMalo():
-    ret = []
-    for r in rides:
-        timeToSource = distance(r.source, posCar) + tActual
-        #print(timeToSource)
-        #print(r.t_min)
-        #print(r.tstart_max)
-        #print(tActual)
-        #print("\n")
-        # TODO: Primer filtro puede dar problemas, no pasa nada por esperar
-        if (r.car < 0 and r.t_min <= timeToSource and timeToSource <= r.tstart_max):
-            ret.append(r)
-    return ret
 
 
 def filtrarRides(ridesList):
