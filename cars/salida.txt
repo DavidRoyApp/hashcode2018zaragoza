@@ -1,0 +1,1176 @@
+ride=167
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+1122 = 0 + 640 + 0 + 482
+
+ride=108
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+1881 = 1122 + 315 + 0 + 444
+
+ride=103
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3315 = 1881 + 723 + 0 + 711
+
+ride=203
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+4876 = 3315 + 823 + 0 + 738
+
+ride=213
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+8613 = 4876 + 1473 + 801 + 1463
+
+ride=96
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+10629 = 8613 + 1079 + 0 + 937
+
+ride=282
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12861 = 10629 + 1204 + 0 + 1028
+
+ride=114
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+15087 = 12861 + 659 + 584 + 983
+
+ride=235
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+16179 = 15087 + 547 + 105 + 440
+
+ride=112
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18267 = 16179 + 689 + 342 + 1057
+
+ride=106
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20265 = 18267 + 1018 + 0 + 980
+
+ride=251
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+21305 = 20265 + 404 + 271 + 365
+
+ride=257
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+24138 = 21305 + 737 + 1304 + 792
+
+ride=183
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+24621 = 24138 + 254 + 52 + 177
+
+ride=164
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+2095 = 0 + 733 + 880 + 482
+
+ride=72
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+2958 = 2095 + 439 + 0 + 424
+
+ride=259
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+4929 = 2958 + 772 + 0 + 1199
+
+ride=150
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6498 = 4929 + 567 + 386 + 616
+
+ride=226
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+8783 = 6498 + 748 + 795 + 742
+
+ride=188
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+9837 = 8783 + 595 + 0 + 459
+
+ride=111
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12997 = 9837 + 932 + 1258 + 970
+
+ride=89
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+14420 = 12997 + 606 + 0 + 817
+
+ride=25
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+16422 = 14420 + 1077 + 86 + 839
+
+ride=181
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18358 = 16422 + 923 + 0 + 1013
+
+ride=155
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+19711 = 18358 + 629 + 0 + 724
+
+ride=66
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+19977 = 19711 + 20 + 200 + 46
+
+ride=126
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+21979 = 19977 + 1105 + 0 + 897
+
+ride=49
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23584 = 21979 + 713 + 88 + 804
+
+ride=132
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+24441 = 23584 + 345 + 76 + 436
+
+ride=116
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+2164 = 0 + 1406 + 0 + 758
+
+ride=162
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3905 = 2164 + 567 + 496 + 678
+
+ride=276
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+5324 = 3905 + 693 + 0 + 726
+
+ride=74
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6679 = 5324 + 526 + 174 + 655
+
+ride=44
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7661 = 6679 + 420 + 186 + 376
+
+ride=21
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+8844 = 7661 + 447 + 0 + 736
+
+ride=39
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+10331 = 8844 + 800 + 0 + 687
+
+ride=146
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11673 = 10331 + 654 + 0 + 688
+
+ride=207
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13273 = 11673 + 871 + 0 + 729
+
+ride=140
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+15106 = 13273 + 772 + 278 + 783
+
+ride=6
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+16042 = 15106 + 479 + 0 + 457
+
+ride=119
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+17693 = 16042 + 694 + 0 + 957
+
+ride=242
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20020 = 17693 + 1102 + 0 + 1225
+
+ride=256
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+21961 = 20020 + 872 + 0 + 1069
+
+ride=189
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23204 = 21961 + 722 + 0 + 521
+
+ride=211
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23781 = 23204 + 342 + 0 + 235
+
+ride=165
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+24743 = 23781 + 128 + 523 + 311
+
+ride=180
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+1929 = 0 + 850 + 0 + 1079
+
+ride=212
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3594 = 1929 + 702 + 0 + 963
+
+ride=95
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+5721 = 3594 + 864 + 285 + 978
+
+ride=156
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7958 = 5721 + 1040 + 80 + 1117
+
+ride=224
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+9584 = 7958 + 864 + 0 + 762
+
+ride=174
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+10854 = 9584 + 649 + 0 + 621
+
+ride=14
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12130 = 10854 + 633 + 0 + 643
+
+ride=258
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13651 = 12130 + 616 + 0 + 905
+
+ride=48
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+15218 = 13651 + 594 + 111 + 862
+
+ride=16
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+17712 = 15218 + 834 + 790 + 870
+
+ride=141
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20078 = 17712 + 980 + 271 + 1115
+
+ride=215
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20757 = 20078 + 165 + 0 + 514
+
+ride=208
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23191 = 20757 + 911 + 797 + 726
+
+ride=149
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+24161 = 23191 + 285 + 145 + 540
+
+ride=130
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+24821 = 24161 + 390 + 0 + 270
+
+ride=168
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+1147 = 0 + 748 + 82 + 317
+
+ride=85
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3270 = 1147 + 1254 + 0 + 869
+
+ride=294
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+4740 = 3270 + 737 + 0 + 733
+
+ride=227
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+5857 = 4740 + 612 + 0 + 505
+
+ride=285
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7601 = 5857 + 746 + 0 + 998
+
+ride=129
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+8289 = 7601 + 298 + 0 + 390
+
+ride=277
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+9607 = 8289 + 460 + 296 + 562
+
+ride=29
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+10416 = 9607 + 423 + 0 + 386
+
+ride=28
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11123 = 10416 + 297 + 0 + 410
+
+ride=271
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13087 = 11123 + 761 + 0 + 1203
+
+ride=61
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13657 = 13087 + 43 + 33 + 494
+
+ride=22
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+14171 = 13657 + 259 + 0 + 255
+
+ride=237
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+15254 = 14171 + 473 + 0 + 610
+
+ride=283
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+16296 = 15254 + 451 + 0 + 591
+
+ride=205
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+17913 = 16296 + 567 + 168 + 882
+
+ride=78
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+19096 = 17913 + 633 + 0 + 550
+
+ride=196
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20787 = 19096 + 698 + 0 + 993
+
+ride=272
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22602 = 20787 + 756 + 134 + 925
+
+ride=77
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23679 = 22602 + 320 + 344 + 413
+
+ride=2
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+24885 = 23679 + 152 + 597 + 457
+
+ride=0
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+1449 = 0 + 438 + 0 + 1011
+
+ride=296
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3511 = 1449 + 1045 + 0 + 1017
+
+ride=133
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+4690 = 3511 + 567 + 0 + 612
+
+ride=218
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6156 = 4690 + 629 + 270 + 567
+
+ride=15
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7314 = 6156 + 402 + 0 + 756
+
+ride=79
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+8279 = 7314 + 465 + 0 + 500
+
+ride=284
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+10835 = 8279 + 645 + 1106 + 805
+
+ride=68
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13061 = 10835 + 1162 + 0 + 1064
+
+ride=73
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+14516 = 13061 + 713 + 0 + 742
+
+ride=101
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+16535 = 14516 + 1058 + 0 + 961
+
+ride=98
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18408 = 16535 + 951 + 0 + 922
+
+ride=59
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20594 = 18408 + 1127 + 0 + 1059
+
+ride=240
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22483 = 20594 + 647 + 653 + 589
+
+ride=84
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23318 = 22483 + 457 + 0 + 378
+
+ride=151
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+24718 = 23318 + 596 + 0 + 804
+
+ride=184
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+1941 = 0 + 1054 + 512 + 375
+
+ride=80
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3346 = 1941 + 571 + 0 + 834
+
+ride=127
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+5161 = 3346 + 861 + 0 + 954
+
+ride=273
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6659 = 5161 + 807 + 0 + 691
+
+ride=19
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7779 = 6659 + 354 + 89 + 677
+
+ride=245
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+9074 = 7779 + 543 + 0 + 752
+
+ride=230
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+9639 = 9074 + 306 + 0 + 259
+
+ride=204
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11270 = 9639 + 435 + 467 + 729
+
+ride=295
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12766 = 11270 + 774 + 0 + 722
+
+ride=27
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13675 = 12766 + 200 + 0 + 709
+
+ride=177
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+14643 = 13675 + 317 + 0 + 651
+
+ride=42
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+15908 = 14643 + 548 + 0 + 717
+
+ride=131
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+17384 = 15908 + 659 + 0 + 817
+
+ride=223
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18821 = 17384 + 667 + 0 + 770
+
+ride=12
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20800 = 18821 + 847 + 0 + 1132
+
+ride=123
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22865 = 20800 + 705 + 678 + 682
+
+ride=9
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23516 = 22865 + 338 + 43 + 270
+
+ride=169
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+24303 = 23516 + 526 + 0 + 261
+
+ride=274
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+24853 = 24303 + 227 + 0 + 323
+
+ride=110
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+2350 = 0 + 1007 + 991 + 352
+
+ride=159
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3993 = 2350 + 463 + 572 + 608
+
+ride=136
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+4916 = 3993 + 407 + 0 + 516
+
+ride=193
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+5510 = 4916 + 190 + 201 + 203
+
+ride=125
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7433 = 5510 + 478 + 804 + 641
+
+ride=113
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+8884 = 7433 + 143 + 727 + 581
+
+ride=91
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+9655 = 8884 + 284 + 0 + 487
+
+ride=214
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11069 = 9655 + 607 + 0 + 807
+
+ride=243
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13416 = 11069 + 833 + 541 + 973
+
+ride=190
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+15428 = 13416 + 401 + 938 + 673
+
+ride=90
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+15999 = 15428 + 224 + 0 + 347
+
+ride=118
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+16493 = 15999 + 313 + 18 + 163
+
+ride=124
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+17699 = 16493 + 731 + 0 + 475
+
+ride=266
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18683 = 17699 + 195 + 174 + 615
+
+ride=154
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20619 = 18683 + 790 + 326 + 820
+
+ride=233
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22330 = 20619 + 598 + 334 + 779
+
+ride=247
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23987 = 22330 + 99 + 1183 + 375
+
+ride=99
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+1773 = 0 + 751 + 912 + 110
+
+ride=8
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3092 = 1773 + 548 + 423 + 348
+
+ride=13
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+4954 = 3092 + 570 + 394 + 898
+
+ride=107
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6720 = 4954 + 649 + 412 + 705
+
+ride=267
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7291 = 6720 + 90 + 350 + 131
+
+ride=57
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7837 = 7291 + 96 + 0 + 450
+
+ride=232
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+9052 = 7837 + 456 + 336 + 423
+
+ride=202
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11739 = 9052 + 440 + 1730 + 517
+
+ride=254
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12216 = 11739 + 152 + 0 + 325
+
+ride=209
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13271 = 12216 + 423 + 0 + 632
+
+ride=147
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+14961 = 13271 + 490 + 828 + 372
+
+ride=93
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+15837 = 14961 + 302 + 380 + 194
+
+ride=201
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+17121 = 15837 + 265 + 69 + 950
+
+ride=10
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18878 = 17121 + 741 + 0 + 1016
+
+ride=288
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+21195 = 18878 + 1048 + 241 + 1028
+
+ride=135
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22869 = 21195 + 828 + 25 + 821
+
+ride=173
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23753 = 22869 + 509 + 0 + 375
+
+ride=175
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+24613 = 23753 + 205 + 453 + 202
+
+ride=34
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+1420 = 0 + 1043 + 179 + 198
+
+ride=249
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3003 = 1420 + 790 + 0 + 793
+
+ride=161
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+4805 = 3003 + 917 + 0 + 885
+
+ride=290
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6445 = 4805 + 775 + 0 + 865
+
+ride=63
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7896 = 6445 + 597 + 0 + 854
+
+ride=166
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+8861 = 7896 + 227 + 643 + 95
+
+ride=244
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11267 = 8861 + 427 + 1130 + 849
+
+ride=50
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12818 = 11267 + 820 + 0 + 731
+
+ride=160
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+14183 = 12818 + 740 + 0 + 625
+
+ride=76
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+15518 = 14183 + 500 + 401 + 434
+
+ride=138
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+17003 = 15518 + 298 + 579 + 608
+
+ride=265
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+19117 = 17003 + 1031 + 0 + 1083
+
+ride=252
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20602 = 19117 + 659 + 234 + 592
+
+ride=206
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22195 = 20602 + 751 + 0 + 842
+
+ride=293
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23400 = 22195 + 69 + 61 + 1075
+
+ride=54
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+2138 = 0 + 1260 + 0 + 878
+
+ride=148
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3717 = 2138 + 642 + 205 + 732
+
+ride=260
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+4954 = 3717 + 351 + 56 + 830
+
+ride=144
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6580 = 4954 + 538 + 564 + 524
+
+ride=187
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7142 = 6580 + 320 + 0 + 242
+
+ride=200
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+8019 = 7142 + 408 + 0 + 469
+
+ride=217
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11289 = 8019 + 527 + 2106 + 637
+
+ride=157
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12571 = 11289 + 817 + 0 + 465
+
+ride=197
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+14268 = 12571 + 496 + 514 + 687
+
+ride=23
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+14997 = 14268 + 305 + 0 + 424
+
+ride=83
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+16979 = 14997 + 745 + 511 + 726
+
+ride=67
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+19806 = 16979 + 696 + 1351 + 780
+
+ride=71
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20904 = 19806 + 508 + 0 + 590
+
+ride=143
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22503 = 20904 + 534 + 316 + 749
+
+ride=94
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23611 = 22503 + 287 + 0 + 821
+
+ride=4
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3061 = 0 + 877 + 1867 + 317
+
+ride=7
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3642 = 3061 + 282 + 0 + 299
+
+ride=220
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+4739 = 3642 + 554 + 184 + 359
+
+ride=137
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+5737 = 4739 + 532 + 0 + 466
+
+ride=60
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7406 = 5737 + 460 + 679 + 530
+
+ride=32
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+9859 = 7406 + 332 + 1571 + 550
+
+ride=102
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11201 = 9859 + 770 + 0 + 572
+
+ride=82
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12402 = 11201 + 596 + 0 + 605
+
+ride=170
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+14151 = 12402 + 908 + 0 + 841
+
+ride=269
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+15102 = 14151 + 268 + 225 + 458
+
+ride=70
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+16454 = 15102 + 610 + 42 + 700
+
+ride=219
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18287 = 16454 + 741 + 184 + 908
+
+ride=43
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20565 = 18287 + 746 + 618 + 914
+
+ride=1
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22719 = 20565 + 1090 + 264 + 800
+
+ride=153
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23711 = 22719 + 398 + 0 + 594
+
+ride=87
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+1936 = 0 + 1038 + 413 + 485
+
+ride=75
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3672 = 1936 + 664 + 0 + 1072
+
+ride=92
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+5202 = 3672 + 754 + 125 + 651
+
+ride=225
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6262 = 5202 + 300 + 483 + 277
+
+ride=18
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7223 = 6262 + 462 + 0 + 499
+
+ride=281
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+9796 = 7223 + 775 + 1136 + 662
+
+ride=121
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11979 = 9796 + 897 + 320 + 966
+
+ride=163
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13637 = 11979 + 523 + 667 + 468
+
+ride=117
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+14026 = 13637 + 135 + 0 + 254
+
+ride=5
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+16965 = 14026 + 323 + 2157 + 459
+
+ride=152
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+19762 = 16965 + 1091 + 702 + 1004
+
+ride=297
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20771 = 19762 + 449 + 0 + 560
+
+ride=262
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+21704 = 20771 + 438 + 0 + 495
+
+ride=37
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22530 = 21704 + 273 + 0 + 553
+
+ride=278
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23377 = 22530 + 577 + 0 + 270
+
+ride=216
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+1823 = 0 + 854 + 0 + 969
+
+ride=88
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+2590 = 1823 + 359 + 0 + 408
+
+ride=62
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+4509 = 2590 + 730 + 541 + 648
+
+ride=171
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6758 = 4509 + 655 + 1117 + 477
+
+ride=128
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+10366 = 6758 + 153 + 3068 + 387
+
+ride=241
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11604 = 10366 + 576 + 0 + 662
+
+ride=3
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12961 = 11604 + 234 + 808 + 315
+
+ride=191
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13599 = 12961 + 448 + 0 + 190
+
+ride=81
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+17078 = 13599 + 828 + 2165 + 486
+
+ride=238
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18209 = 17078 + 412 + 311 + 408
+
+ride=31
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18681 = 18209 + 94 + 0 + 378
+
+ride=182
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+19453 = 18681 + 395 + 0 + 377
+
+ride=192
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20326 = 19453 + 485 + 0 + 388
+
+ride=30
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+21168 = 20326 + 448 + 0 + 394
+
+ride=186
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+21775 = 21168 + 258 + 0 + 349
+
+ride=178
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23096 = 21775 + 579 + 165 + 577
+
+ride=52
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+23548 = 23096 + 89 + 120 + 243
+
+ride=24
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3812 = 0 + 496 + 3270 + 46
+
+ride=58
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+5265 = 3812 + 406 + 572 + 475
+
+ride=261
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7256 = 5265 + 315 + 1281 + 395
+
+ride=40
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+10971 = 7256 + 280 + 2969 + 466
+
+ride=239
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11688 = 10971 + 226 + 0 + 491
+
+ride=195
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+14185 = 11688 + 338 + 1764 + 395
+
+ride=287
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+16956 = 14185 + 179 + 1997 + 595
+
+ride=292
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18857 = 16956 + 929 + 332 + 640
+
+ride=145
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20143 = 18857 + 749 + 0 + 537
+
+ride=279
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+21662 = 20143 + 410 + 732 + 377
+
+ride=97
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22382 = 21662 + 156 + 0 + 564
+
+ride=275
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+1758 = 0 + 1294 + 115 + 349
+
+ride=246
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3693 = 1758 + 249 + 1427 + 259
+
+ride=210
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+4416 = 3693 + 320 + 0 + 403
+
+ride=105
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6724 = 4416 + 603 + 1094 + 611
+
+ride=236
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13156 = 6724 + 652 + 5186 + 594
+
+ride=139
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+17372 = 13156 + 682 + 3062 + 472
+
+ride=255
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18070 = 17372 + 279 + 117 + 302
+
+ride=264
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18828 = 18070 + 421 + 0 + 337
+
+ride=104
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+19998 = 18828 + 300 + 0 + 870
+
+ride=47
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+21641 = 19998 + 90 + 1071 + 482
+
+ride=69
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22855 = 21641 + 660 + 0 + 554
+
+ride=299
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3544 = 0 + 745 + 2722 + 77
+
+ride=198
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+7624 = 3544 + 254 + 3318 + 508
+
+ride=53
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+9012 = 7624 + 578 + 778 + 32
+
+ride=172
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+10611 = 9012 + 798 + 659 + 142
+
+ride=222
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11235 = 10611 + 79 + 507 + 38
+
+ride=26
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12506 = 11235 + 489 + 482 + 300
+
+ride=298
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13985 = 12506 + 919 + 0 + 560
+
+ride=35
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18062 = 13985 + 548 + 2857 + 672
+
+ride=55
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+19071 = 18062 + 186 + 516 + 307
+
+ride=228
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20539 = 19071 + 739 + 105 + 624
+
+ride=229
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+21900 = 20539 + 312 + 794 + 255
+
+ride=134
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3331 = 0 + 864 + 2195 + 272
+
+ride=56
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6267 = 3331 + 148 + 2619 + 169
+
+ride=38
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6920 = 6267 + 306 + 116 + 231
+
+ride=158
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12687 = 6920 + 653 + 4603 + 511
+
+ride=11
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+14144 = 12687 + 539 + 0 + 918
+
+ride=199
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+17612 = 14144 + 90 + 3289 + 89
+
+ride=250
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18741 = 17612 + 611 + 0 + 518
+
+ride=100
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20291 = 18741 + 164 + 1191 + 195
+
+ride=120
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20980 = 20291 + 309 + 0 + 380
+
+ride=194
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22405 = 20980 + 930 + 76 + 419
+
+ride=286
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+3498 = 0 + 761 + 2651 + 86
+
+ride=263
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+6767 = 3498 + 431 + 2709 + 129
+
+ride=185
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12257 = 6767 + 391 + 4085 + 1014
+
+ride=109
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13866 = 12257 + 185 + 1102 + 322
+
+ride=45
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+17439 = 13866 + 430 + 2846 + 297
+
+ride=248
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18091 = 17439 + 217 + 0 + 435
+
+ride=142
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20177 = 18091 + 574 + 828 + 684
+
+ride=231
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+21362 = 20177 + 838 + 223 + 124
+
+ride=270
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22035 = 21362 + 284 + 347 + 42
+
+ride=41
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+1851 = 0 + 1262 + 194 + 395
+
+ride=253
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+13196 = 1851 + 445 + 10684 + 216
+
+ride=291
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+17364 = 13196 + 239 + 3767 + 162
+
+ride=20
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18183 = 17364 + 34 + 327 + 458
+
+ride=51
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18695 = 18183 + 101 + 149 + 262
+
+ride=176
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20189 = 18695 + 1034 + 0 + 460
+
+ride=46
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+22233 = 20189 + 368 + 1618 + 58
+
+ride=122
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11627 = 0 + 646 + 10881 + 100
+
+ride=268
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12548 = 11627 + 427 + 332 + 162
+
+ride=115
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+18816 = 12548 + 168 + 5983 + 117
+
+ride=280
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+19885 = 18816 + 902 + 12 + 155
+
+ride=17
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+20207 = 19885 + 147 + 122 + 53
+
+ride=64
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+11594 = 0 + 798 + 10642 + 154
+
+ride=86
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+12841 = 11594 + 703 + 409 + 135
+
+ride=289
+tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+19367 = 12841 + 787 + 5028 + 711
+

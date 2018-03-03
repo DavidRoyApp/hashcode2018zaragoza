@@ -13,6 +13,7 @@ T = 0  # nº de pasos
 
 ridesInput = []
 rides = []
+cars = []
 
 ncar = 0 # nº de coche actual
 tActual = 0 # el tiempo actual
@@ -53,6 +54,11 @@ def readInput(filename):
         rides.append(newRide)
         key += 1
 
+    global cars
+    cars = []
+    for ncar in range(0, F):  # para cada coche
+        cars.append([])
+
 
 def distance(tuple1, tuple2):
     return abs(tuple1[0] - tuple2[0]) + abs(tuple1[1] - tuple2[1])
@@ -61,17 +67,9 @@ def distance(tuple1, tuple2):
 def writeOutput(filename):
     file = open(filename,"w") 
   
-    for row in range(0, F):  # para cada coche
-        encontrado = 0
-        asignados= []
-        # buscar en rides todos los que tengan ride.car == row e imprimir ride.id
-        for ri in rides:
-            if (ri.car == row):
-                encontrado += 1
-                asignados.append(ri.id)
-        
-        file.write(str(encontrado) + ' ')
-        for i in asignados:
+    for car in cars:  # para cada coche
+        file.write(str(len(car)) + ' ')
+        for i in car:
             file.write(str(i) + ' ')
         file.write('\n')
     file.close()
@@ -82,26 +80,28 @@ def algoritmoPrincipal():
     global tActual, posCar, ncar
 
     for ncar in range(0, F):  # para cada coche
-        ordenados = rides # disponibles todos los riders (ya se filtraran los cogidos)
+        ordenados = rides # disponibles todos los riders (ya se filtrarán los cogidos)
         tActual = 0  # cada coche empieza con tiempo 0
         posCar = (0, 0) #resetear posicion del coche
         while tActual < T:  # mientras haya tiempo
-            print("len filtrados: "+ str(len(filtrados)))
             filtrados = filtrarRides(ordenados)
-            ordenados = ordenarRides1(filtrados)
+            ordenados = ordenarRides2(filtrados)
+            #print("len filtrados: "+ str(len(filtrados)))
             # coger el 1º del array ordenados
             # TO-DO: y si el 2º se lleva poca diferencia con el 1º?
             if(len(ordenados) > 0):
                 selectedRide = ordenados[0]
-                # actualizar variables
-                distanceToSource = distance(posCar, selectedRide.source)
 
+                # actualizar variables
+                cars[ncar].append(selectedRide.id)
                 rides[selectedRide.id].car = ncar
                 ordenados = ordenados[1:len(ordenados)]
-                posCar = selectedRide.target
+                distanceToSource = distance(posCar, selectedRide.source)
                 tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
+                posCar = selectedRide.target
             else:
                 tActual = T
+        #print [ri.tstart_max for ri in rides]
 
 
 # filtrar sólo riders libres y que puedan llegar a tiempo (den puntos)
@@ -119,18 +119,24 @@ def filtrarRides(ridesList):
 
         if (r.car < 0 and timeToSource <= r.tstart_max):
             ret.append(r)
+            #print("r.id= "+ str(r.id))
+            #print("timeToSource= "+ str(timeToSource))
+            #print("r.tstart_max= "+ str(r.tstart_max))
+            #print
     return ret
 
 
+# ordenar por distancia desc
 def ordenarRides1(ridesList):
-    # ordenar por distancia desc
     return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - distance(x.source, posCar), reverse=True)
 
+# dar más peso a los puntos conseguidos
 def ordenarRides2(ridesList):
-    return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - (0.5* distance(x.source, posCar)), reverse=True)
+    return sorted(ridesList, key=lambda x: x.bonus - (0.5 * x.delay) + x.distance - (0.5* distance(x.source, posCar)) - (0.5* distance(x.target, posCar)), reverse=True)
 
+# igual que 2 pero penalizamos que la ruta acabe lejos
 def ordenarRides3(ridesList):
-    return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - (0.5* distance(x.source, posCar)) - (0.5* distance(x.target, posCar)), reverse=True)
+    return sorted(ridesList, key=lambda x: x.bonus - (0.5 * x.delay) + x.distance - (0.5* distance(x.source, posCar)) - (2* distance(x.target, posCar)), reverse=True)
 
 
 ################################################################################
