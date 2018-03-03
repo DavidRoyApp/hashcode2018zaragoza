@@ -20,7 +20,7 @@ posCar = (0, 0) # la posición actual del coche
 
 
 def main():
-    for i in range(0, 4):
+    for i in range(0, 5):
         readInput(inFilename[i])
         algoritmoPrincipal()
         writeOutput(outFilename[i])
@@ -53,12 +53,6 @@ def readInput(filename):
         rides.append(newRide)
         key += 1
 
-    # inicializar
-    global ncar, tActual, posCar
-    ncar = 0
-    tActual = 0
-    posCar = (0, 0)
-
 
 def distance(tuple1, tuple2):
     return abs(tuple1[0] - tuple2[0]) + abs(tuple1[1] - tuple2[1])
@@ -85,26 +79,24 @@ def writeOutput(filename):
 
 
 def algoritmoPrincipal():
-    global tActual, posCar
+    global tActual, posCar, ncar
 
-    ordenados = rides
-    for car in range(0, F):  # para cada coche
-        print("coche nº: "+ str(car))
-        
+    for ncar in range(0, F):  # para cada coche
+        ordenados = rides # disponibles todos los riders (ya se filtraran los cogidos)
         tActual = 0  # cada coche empieza con tiempo 0
         posCar = (0, 0) #resetear posicion del coche
         while tActual < T:  # mientras haya tiempo
-            filtrados = filtrarRides(ordenados)
             print("len filtrados: "+ str(len(filtrados)))
-            ordenados = ordenarRidesBonus(filtrados)  # de los filtrados, los ordenamos
-            print("len ordenados: "+ str(len(ordenados)))
+            filtrados = filtrarRides(ordenados)
+            ordenados = ordenarRides1(filtrados)
             # coger el 1º del array ordenados
+            # TO-DO: y si el 2º se lleva poca diferencia con el 1º?
             if(len(ordenados) > 0):
                 selectedRide = ordenados[0]
                 # actualizar variables
                 distanceToSource = distance(posCar, selectedRide.source)
 
-                rides[selectedRide.id].car = car
+                rides[selectedRide.id].car = ncar
                 ordenados = ordenados[1:len(ordenados)]
                 posCar = selectedRide.target
                 tActual = tActual + distanceToSource + selectedRide.delay + selectedRide.distance
@@ -112,6 +104,7 @@ def algoritmoPrincipal():
                 tActual = T
 
 
+# filtrar sólo riders libres y que puedan llegar a tiempo (den puntos)
 def filtrarRides(ridesList):
     ret = []
     for r in ridesList:
@@ -129,15 +122,15 @@ def filtrarRides(ridesList):
     return ret
 
 
-def ordenarRidesBonus(ridesList):
+def ordenarRides1(ridesList):
     # ordenar por distancia desc
-    #return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - distance(x.source, posCar), reverse=True)
-    #return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - (0.5* distance(x.source, posCar)), reverse=True)
+    return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - distance(x.source, posCar), reverse=True)
+
+def ordenarRides2(ridesList):
+    return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - (0.5* distance(x.source, posCar)), reverse=True)
+
+def ordenarRides3(ridesList):
     return sorted(ridesList, key=lambda x: x.bonus - x.delay + x.distance - (0.5* distance(x.source, posCar)) - (0.5* distance(x.target, posCar)), reverse=True)
-
-
-# def doSlices():
-# calcular los slices
 
 
 ################################################################################
